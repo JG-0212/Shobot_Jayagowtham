@@ -1,0 +1,14 @@
+work methodology
+
+1.Clone the yolov5 repository
+2.Go to the directory
+3.Install requirements.txt
+4.Use Roboflow to annotate using AI
+5.Define a path for train,val,test and labels
+6.After annotation export your labels to YOLO format with one *.txt file for one image
+7.Organize directories
+8.Select a model
+9.Train it using pretrained weights
+10.Run on test data
+11.Check accuracy
+12.If it is really poor go back to dataset

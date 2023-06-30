@@ -1,0 +1,39 @@
+Faster R-CNN or YOLO
+Collection of dataset
+-Collect Raw datase
+-Identify feature and label sources
+-select a sampling strategy
+For annotation and labelling you can use
+-https://github.com/heartexlabs/labelImg
+We need around 2000 images
+Assuming augmentation gives around 10 images we still need around 10 images per class
+22 different classes
+tensorflow imagedatagenerator
+
+Data augmentation
+- You have to do it after test train split to avoid overfitting
+- You can use ImageDatagenerator or any github library to do it e.g imgaug
+-cv.imread() gives images in BGR format
+
+My model will predict the item's Name
+We will work on it's improvisations later
+Like weight,flavor,exp.date and so
+
+Idea 
+- detect for presence of objects
+-our model will learn that it is best to read names so don't worry about it
+
+dataset
+-Using developer tools in firefox
+-simulating right click using javascript code
+-simulate the context bar using the same code
+-DOM (document object model)
+-bubbling just like recursion
+-dispatching event in the sense acting it upon the element
+
+Important code details
+-.strip() removes spaces at the start and end of the file
+
+Don't use logo detection because the same logo can apply for different products
+Also you need the product coordinates rather than the logo coordinates
+
