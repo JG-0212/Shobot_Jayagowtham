@@ -37,3 +37,21 @@ Important code details
 Don't use logo detection because the same logo can apply for different products
 Also you need the product coordinates rather than the logo coordinates
 
+You have license from Roboflow 4.0
+
+
+Coordinates
+
+projectpixelto3dray function from realsense camera will help
+install in ros only
+can't be done in python
+we need world coordinates of realsense camera tho
+
+In OpenCV, pixels are accessed by their (x, y) -coordinates. The origin, (0, 0), is located at the top-left of the image. 
+OpenCV images are zero-indexed, where the x- values go left-to-right (column number) and y -values go top-to-bottom (row number). 
+
+webcam resolution is (640,480)
+intel realsense d415 is (1280,720)
+
+manually calculate the frame size
+65 cm
